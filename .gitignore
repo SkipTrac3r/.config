@@ -1,0 +1,7 @@
+# Ignore non-dotfile apps
+/bytop/
+/go/
+/jgit/
+/lazygit/
+/lnav/
+/systemd/
