@@ -5,3 +5,6 @@
 /lazygit/
 /lnav/
 /systemd/
+
+# Ignore only sensitive files
+github-copilot/apps.json
