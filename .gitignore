@@ -8,3 +8,5 @@
 
 # Ignore only sensitive files
 github-copilot/apps.json
+github-copilot/versions.json
+nvim/lazy-lock.json
