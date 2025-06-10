@@ -74,6 +74,7 @@ export PATH="$PATH:/opt/maven/bin:$SDKMAN_DIR/candidates/java/17.0.14-tem/bin"
 # 5. Oh My Zsh & Plugins
 # -----------------------------------------------------------------------------
 export ZSH="$XDG_DATA_HOME/oh-my-zsh"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Load syntax highlighting before Oh My Zsh
 source "$ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
