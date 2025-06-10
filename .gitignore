@@ -10,3 +10,5 @@
 github-copilot/apps.json
 github-copilot/versions.json
 nvim/lazy-lock.json
+/../git/
+/../npm/
