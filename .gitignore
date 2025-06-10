@@ -1,16 +1,39 @@
-# Ignore non-dotfile apps
-/byptop/
+# ───────────────────────────────────────────────────────────────
+# Ignore non-dotfile app config (not tracked in this repo)
+# ───────────────────────────────────────────────────────────────
+/btop/
 /go/
 /jgit/
 /lazygit/
 /lnav/
 /systemd/
 
-# Ignore only sensitive files
+# ───────────────────────────────────────────────────────────────
+# Ignore Copilot metadata and generated files
+# ───────────────────────────────────────────────────────────────
 github-copilot/apps.json
 github-copilot/versions.json
+
+# ───────────────────────────────────────────────────────────────
+# Ignore editor-specific state files
+# ───────────────────────────────────────────────────────────────
 nvim/lazy-lock.json
-/../git/
-/../npm/
+
+# ───────────────────────────────────────────────────────────────
+# Ignore tool state, cache, and user-specific data
+# ───────────────────────────────────────────────────────────────
+.cache/
+.local/state/
+npm/
+.git/           # if this is a subdir repo, not your main .git
+
+# ───────────────────────────────────────────────────────────────
+# Optional: exclude bare config folders unless intentionally tracked
+# ───────────────────────────────────────────────────────────────
 git/
 npm/
+
+# ───────────────────────────────────────────────────────────────
+# Keep empty folders (structure only)
+# ───────────────────────────────────────────────────────────────
+!.keep
