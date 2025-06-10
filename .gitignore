@@ -12,3 +12,5 @@ github-copilot/versions.json
 nvim/lazy-lock.json
 /../git/
 /../npm/
+git/
+npm/
